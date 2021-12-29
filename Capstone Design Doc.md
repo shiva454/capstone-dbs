@@ -32,21 +32,7 @@
 2. Stocks **[ stock_id(PK), client_id(FK), instrument_id(FK),quantity ]**
 3. Custodian Table **[ custodian_id,custodian_name]**
 4. Instrument Table **[ instrument_id,instrument_name,face_value(nullable), expiry_date(nullable),min_quantity,]**
-5. OrderBook ( Buy and Sell Order) **[ order_id(PK), client_id(FK),instrument_id(FK), price,quantity, direction** **,limit_order:boolean, status:{PROCESSING|COMPLETE|CANCELLED}]**
-
-## Tasks
-
-1. Project Setup ( Error Handler, Dependecies) --> Keshav ,Anirudh
-
-2. Creating Entities - > Harsha
-
-3. Repositories & Queries --> Mallika
-
-4. Endpoint/ Controllers ( Models) --> Meghana, Mahesh
-
-5. Services --> Bharath
-
-6. Security JWT Auth ---> NaN
+5. OrderBook ( Buy and Sell Order) **[ order_id(PK), client_id(FK),instrument_id(FK), price,quantity, direction** **,limit_order:boolean, status:{PROCESSING|COMPLETE|CANCELLED}]**  
 
    
 
