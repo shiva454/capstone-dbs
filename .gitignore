@@ -1,0 +1,9 @@
+.idea/*
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*git p
+capstone-project-dbs/h2db.lock.db
+
